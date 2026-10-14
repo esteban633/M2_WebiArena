@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cardex</title>
+  </head>
+  <body>
+    <header>
+      <h1>Cardex</h1>
+      <p>La Pokédex de los coches: elige una marca y descubre sus modelos.</p>
+      <input id="buscador" type="search" placeholder="Buscar marca…" aria-label="Buscar marca" />
+    </header>
+
+    <main>
+      <section id="marcas" aria-live="polite"></section>
+      <aside id="detalle" aria-live="polite">
+        <p>Selecciona una marca de la lista.</p>
+      </aside>
+    </main>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
